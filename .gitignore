@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Playwright / browser session state ---
+browser_profile/
+playwright-report/
+test-results/
+
+# --- Runtime artifacts ---
+automation.log
+automation.log.*
+screenshots/
+debug_bundles/
+
+# --- Private CentralReach configuration ---
+provider_location_mapping.json
+bulk_merge_config.json
+provider_location_mapping.local.json
+bulk_merge_config.local.json
+
+# --- Local data / exports ---
+*.xlsx
+*.xls
+*.csv
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,10 @@
+{
+  "AHC": {
+    "organization_query": "Example Organization A",
+    "organization_option_regex": "Example Organization A.*\\(ID:\\s*123456\\)"
+  },
+  "SAC": {
+    "organization_query": "Example Organization B",
+    "organization_option_regex": "Example Organization B.*\\(ID:\\s*654321\\)"
+  }
+}
